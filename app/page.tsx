@@ -8,7 +8,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-200 via-fuchsia-100 to-yellow-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-500">
       {/* Avoid motion.h1 in server component, use static h1 */}
       <h1 className="text-4xl md:text-6xl font-extrabold text-center bg-gradient-to-r from-blue-600 via-fuchsia-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-lg mt-12 mb-8">
-        অর্থ ও আবহাওয়া জয়ের <span className="whitespace-nowrap">স্মার্ট অ্যাপ</span>
+        A Smart App for Financial Insights and  <span className="whitespace-nowrap">Weather Forecasts</span>
       </h1>
 
       <div className="w-full max-w-5xl flex flex-col md:flex-row gap-8 justify-center items-stretch px-4">
@@ -52,7 +52,7 @@ export default function Home() {
             <>
               <span className="text-5xl mb-2">📚</span>
               <h2 className="text-xl font-bold mb-2 text-yellow-700 dark:text-yellow-200">স্মার্ট ফাইন্যান্স গল্প</h2>
-              <p className="mb-2 text-center text-gray-700 dark:text-gray-200 font-semibold">৩টি চোখ খুলে দেওয়ার মতো বাস্তব অভিজ্ঞতা এবং ৬০+ দরকষাকষির হ্যাক — সব কিছুই বাংলায়।</p>
+              <p className="mb-2 text-center text-gray-700 dark:text-gray-200 font-semibold">৩টি চোখ খুলে দেওয়ার মতো বাস্তব অভিজ্ঞতা এবং ৬০+ দরকষাকষির হ্যাক </p>
               <p className="mb-4 text-center text-gray-600 dark:text-gray-300 text-sm">গল্পে গল্পে শেখা স্মার্ট টাকাপয়সার পাঠ!</p>
             </>
           </Link>
